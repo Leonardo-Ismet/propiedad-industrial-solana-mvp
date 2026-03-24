@@ -159,7 +159,7 @@ async function createProjectStructure(projectDir: string, config: ProjectConfig)
     packageJson.dependencies['@supabase/supabase-js'] = '^2.48.0'
   }
 
-  await fs.writeFile(path.join(projectDir, 'package.json'), JSON.stringify(packageJson, null, 2))
+  await fs.writeFile(path.join(projectDir, 'package.json'), JSON.stringify(packageJson, undefined, 2))
 
   // Create README
   const readme = `# ${config.name}

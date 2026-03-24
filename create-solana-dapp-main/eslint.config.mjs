@@ -10,8 +10,6 @@ export default unjs(
       'dist',
       'node_modules',
       'tmp',
-      'PROBLEMS_RESOLVED.md',
-      'create-solana-dapp-main/**',
     ],
     markdown: {
       rules: {
