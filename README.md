@@ -34,5 +34,7 @@ Blockchain: Solana + Anchor
 ## ⚙️ Instalación
 
 ```bash
+-falta complementar - 
 npm install
+
 npm run dev
