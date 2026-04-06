@@ -48,7 +48,7 @@
     "test:types": "tsc --noEmit --skipLibCheck"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/changelog-github": "^0.6.0",
     "@changesets/cli": "^2.29.7",
     "@types/mock-fs": "^4.13.4",
     "@types/node": "^24.3.1",
